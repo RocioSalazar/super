@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="productos/favicon.jpg" />
+</head>
+
+<body class="body-servicios">
+    <div class="contenedor2">
+        <div class="menu2">
+            <p class="titulo-productos"><a class="ancla-index" href="index.html">Super Salazar</a></p>
+            <nav>
+                <ul class="lista">
+                    <li><a class="btn-menu2 desaparecer" href="productos.html">Productos</a></li>
+                    <li><a class="btn-menu2 desaparecer" href="promociones.html">Promociones</a></li>
+                    <li><a class="btn-menu2 desaparecer" href="servicio_domicilio.html">Servicio a domicilio</a>
+                    </li>
+                    <li><a class="btn-menu2 desaparecer" href="contactanos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section id="servicios">
+        <h1 class="contactanos-titulo">Pide desde aquí !!!</h1>
+        <div class="contenedor-contactanos">
+
+            <div class="div-formulario ">
+                <label class="label-servicio">
+                    <span class="span-servicio">Nombre</span>
+                    <input class="input-servicio" type="text" name="nombre" required autocomplete="off">
+                </label>
+            </div>
+            <div class="div-formulario">
+                <label class="label-servicio">
+                    <span class="span-servicio">Dirección completa</span>
+                    <input class="input-servicio direccion-form" type="text" name="direccion" required
+                        autocomplete="off">
+                </label>
+            </div>
+            <div class="div-formulario">
+                <label class="label-servicio">
+                    <span class="span-servicio">Pedido</span>
+                    <input class="input-servicio direccion-form" type="text" name="pedido" required autocomplete="off">
+                </label>
+            </div>
+            <button id="pedido" class="btn-pedido" type="submit">Hacer pedido</button>
+        </div>
+    </section>
+
+    <script src="formulario.js"></script>
+</body>
+
+</html>
